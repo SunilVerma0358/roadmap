@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Cherry+Bomb+One&display=swap');
 :root {
     /* font-size */
-    --fs-sm: 16px;
+    --fs-sm: 14px;
     --fs-md: 18px;
     --fs-xmd: 24px;
     --fs-lg: 28px;
@@ -69,4 +69,10 @@
 
 .gray {
     color: var(--gray);
+}
+
+@media (min-width:575.5px) {
+     :root {
+        --fs-sm: 14px;
+    }
 }
